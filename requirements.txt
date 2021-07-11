@@ -1,0 +1,5 @@
+pytorch==1.8.1
+transformers==4.2.2
+configargparse==1.2.3
+bidict==0.20.0
+fire==0.3.1

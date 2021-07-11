@@ -1,0 +1,42 @@
+save_dir: ckpt/demo
+
+data_dir: data/ACE2005/
+train_file: train.json
+dev_file: dev.json
+test_file: test.json
+ent_rel_file: ent_rel_file.json
+max_sent_len: 512
+max_wordpiece_len: 512
+
+embedding_model: bert
+mlp_hidden_size: 150
+max_span_length: 10
+dropout: 0.4
+logit_dropout: 0.2
+bert_model_name: bert-base-uncased
+bert_output_size: 0
+bert_dropout: 0.0
+separate_threshold: 1.4
+
+gradient_clipping: 5.0
+learning_rate: 5e-5
+bert_learning_rate: 5e-5
+lr_decay_rate: 0.9
+adam_beta1: 0.9
+adam_beta2: 0.9
+adam_epsilon: 1e-12
+adam_weight_decay_rate: 1e-5
+adam_bert_weight_decay_rate: 1e-5
+
+seed: 5216
+epochs: 200
+pretrain_epochs: 100
+warmup_rate: 0.2
+early_stop: 30
+train_batch_size: 32
+test_batch_size: 32
+gradient_accumulation_steps: 1
+logging_steps: 32
+validate_every: 20000
+device: -1
+log_file: train.log

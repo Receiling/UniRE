@@ -1,0 +1,68 @@
+{
+    "id": {
+        "None": 0,
+        "Task": 1,
+        "Method": 2,
+        "Metric": 3,
+        "Material": 4,
+        "OtherScientificTerm": 5,
+        "Generic": 6,
+        "USED-FOR": 7,
+        "FEATURE-OF": 8,
+        "HYPONYM-OF": 9,
+        "PART-OF": 10,
+        "EVALUATE-FOR": 11,
+        "COMPARE": 12,
+        "CONJUNCTION": 13
+    },
+    "entity": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+    ],
+    "relation": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+    ],
+    "symmetric": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        12,
+        13
+    ],
+    "asymmetric": [
+        7,
+        8,
+        9,
+        10,
+        11
+    ],
+    "count": [
+        1233837,
+        11028,
+        14327,
+        1343,
+        4380,
+        11039,
+        1195,
+        9926,
+        967,
+        1429,
+        978,
+        1465,
+        1344,
+        4696
+    ]
+}
