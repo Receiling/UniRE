@@ -10,7 +10,7 @@ Source code for "UniRE: A Unified Label Space for Entity Relation Extraction.", 
 * `fire`: 0.3.1
 
 ## Datasets
-We provide scripts and instructions for processing three datasets (ACE2004,ACE2005,SciERC) are provided in [`data/`](https://github.com/Receiling/UniRE/data).
+We provide scripts and instructions for processing three datasets (ACE2004,ACE2005,SciERC) are provided in [`data/`](https://github.com/Receiling/UniRE/tree/master/data).
 
 ## Training
 ### ACE2004
