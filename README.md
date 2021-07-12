@@ -1,5 +1,5 @@
 # UniRE
-Source code for "UniRE: A Unified Label Space for Entity Relation Extraction.", ACL2021.
+Source code for ["UniRE: A Unified Label Space for Entity Relation Extraction."](https://arxiv.org/abs/2107.04292), ACL2021.
 
 ## Requirements
 * `python`: 3.7.6
