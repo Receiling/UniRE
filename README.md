@@ -53,7 +53,7 @@ If **OOM** occurs, we suggest that reducing `train_batch_size` and increasing `g
 We provide an example ACE2005. 
 Note that `save_dir` should contain the trained `best_model`.
 ```bash
-python python entity_relation_joint_decoder.py \
+python entity_relation_joint_decoder.py \
     --config_file config.yml \
     --save_dir ckpt/ace2005_bert \
     --data_dir data/ACE2005 \
