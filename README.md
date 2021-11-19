@@ -15,7 +15,7 @@ We provide scripts and instructions for processing three datasets (ACE2004,ACE20
 ## Training
 ### ACE2004
 ```bash
-python python entity_relation_joint_decoder.py \
+python entity_relation_joint_decoder.py \
     --config_file config.yml \
     --save_dir ckpt/ace2004_bert \
     --data_dir data/ACE2004/fold1 \
@@ -25,7 +25,7 @@ python python entity_relation_joint_decoder.py \
 
 ### ACE2005
 ```bash
-python python entity_relation_joint_decoder.py \
+python entity_relation_joint_decoder.py \
     --config_file config.yml \
     --save_dir ckpt/ace2005_bert \
     --data_dir data/ACE2005 \
@@ -35,7 +35,7 @@ python python entity_relation_joint_decoder.py \
 
 ### SciERC
 ```bash
-python python entity_relation_joint_decoder.py \
+python entity_relation_joint_decoder.py \
     --config_file config.yml \
     --save_dir ckpt/scierc_scibert \
     --data_dir data/SciERC \
