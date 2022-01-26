@@ -1,5 +1,6 @@
 # UniRE
-Source code for ["UniRE: A Unified Label Space for Entity Relation Extraction."](https://arxiv.org/abs/2107.04292), ACL2021.
+Source code for ["UniRE: A Unified Label Space for Entity Relation Extraction."](https://aclanthology.org/2021.acl-long.19/), ACL2021.
+It is based on our [NERE](https://github.com/Receiling/NERE) toolkit.
 
 ## Requirements
 * `python`: 3.7.6
