@@ -12,7 +12,7 @@ It is based on our [NERE](https://github.com/Receiling/NERE) toolkit.
 * `fire`: 0.3.1
 
 ## Datasets
-We provide scripts and instructions for processing three datasets (ACE2004,ACE2005,SciERC) in [`data/`](https://github.com/Receiling/UniRE/tree/master/data).
+We provide scripts and instructions for processing three datasets (ACE2004,ACE2005,SciERC) in the [`data/`](https://github.com/Receiling/UniRE/tree/master/data).
 
 ## Training
 ### ACE2004
