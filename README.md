@@ -64,6 +64,19 @@ python entity_relation_joint_decoder.py \
     --test
 ```
 
+## Pre-trained Models
+We release our pre-trained `UniRE` model for the ACE2005 dataset.
+
+Note that the released model is trained on the `GeForce RTX 2080 Ti` rather than `Quadro RTX 8000`, leading to the performance of the pre-trained model is slightly different from the reported score in the paper.
+
+You can download the BERT based pre-trained model in this [link](https://pan.baidu.com/s/1qXzzYx6Vfgp-YlwRz0yV9A)(password: wc4k) (size: 420M).
+
+Performance of the pre-trained models on the ACE2005 test set:
+```
+Entity - P: 89.03% R: 88.81% F1: 88.92%
+Relation (strict) - P: 68.71% R: 60.25% F1: 64.21%
+```
+
 ## Cite
 If you find our code is useful, please cite:
 ```
