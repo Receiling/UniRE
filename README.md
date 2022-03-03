@@ -71,7 +71,7 @@ Note that the released model is trained on the `GeForce RTX 2080 Ti` rather than
 
 You can download the BERT based pre-trained model in this [link](https://pan.baidu.com/s/1qXzzYx6Vfgp-YlwRz0yV9A)(password: wc4k) (size: 420M).
 
-Performance of the pre-trained models on the ACE2005 test set:
+Performance of the pre-trained model on the ACE2005 test set:
 ```
 Entity - P: 89.03% R: 88.81% F1: 88.92%
 Relation (strict) - P: 68.71% R: 60.25% F1: 64.21%
