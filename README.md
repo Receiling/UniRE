@@ -69,7 +69,7 @@ We release our pre-trained `UniRE` model for the ACE2005 dataset.
 
 Note that the released model is trained on the `GeForce RTX 2080 Ti` rather than `Quadro RTX 8000`, leading to the performance of the pre-trained model is slightly different from the reported score in the paper.
 
-You can download the BERT based pre-trained model in this [link](https://pan.baidu.com/s/1o2Y3ZPatYWK450H4-US-Hw)(password: aur4) (size: 420M).
+You can download the BERT based pre-trained model in this [link](https://pan.baidu.com/s/1OKoiuDo80JPOkNqgW_b3_Q)(password: 151m) (size: 420M).
 
 Performance of the pre-trained model on the ACE2005 test set:
 ```
